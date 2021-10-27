@@ -1,4 +1,4 @@
-name: JDHelloWorld-sync
+name: JDHelloWorld-jd_scripts-sync
 on:
   schedule:
     - cron: '1 */8 * * *'
@@ -24,5 +24,5 @@ jobs:
         with:
           source_repo: "https://github.com/JDHelloWorld/jd_scripts.git"
           source_branch: "main"
-          destination_branch: "JDHelloWorld"
+          destination_branch: "JDHelloWorld-jd_scripts"
           github_token: ${{ secrets.PAT }}

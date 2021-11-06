@@ -1,7 +1,7 @@
 name: JDHelloWorld-JD_tencent_scf-sync
 on:
   schedule:
-    - cron: '1 */8 * * *'
+    - cron: '3 */12 * * *'
   workflow_dispatch:
   watch:
     types: started

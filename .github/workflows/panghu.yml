@@ -1,7 +1,7 @@
 name: panghu-sync
 on:
   schedule:
-    - cron: '22 */12 * * *'
+    - cron: '22 1 * * *'
   workflow_dispatch:
   watch:
     types: started

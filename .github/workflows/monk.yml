@@ -1,7 +1,7 @@
 name: monk-coder-sync
 on:
   schedule:
-    - cron: '21 */12 * * *'
+    - cron: '21 1 * * *'
   workflow_dispatch:
   watch:
     types: started

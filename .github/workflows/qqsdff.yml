@@ -1,7 +1,7 @@
 name: qqsdff-sync
 on:
   schedule:
-    - cron: '26 */12 * * *'
+    - cron: '26 1 * * *'
   workflow_dispatch:
   watch:
     types: started

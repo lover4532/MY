@@ -1,7 +1,7 @@
 name: Mashiro2000-HeyTapTask-sync
 on:
   schedule:
-    - cron: '5 */12 * * *'
+    - cron: '5 1 * * *'
   workflow_dispatch:
   watch:
     types: started

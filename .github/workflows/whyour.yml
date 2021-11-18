@@ -1,7 +1,7 @@
 name: whyour-sync
 on:
   schedule:
-    - cron: '32 */12 * * *'
+    - cron: '32 1 * * *'
   workflow_dispatch:
   watch:
     types: started

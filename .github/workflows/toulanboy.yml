@@ -1,7 +1,7 @@
 name: toulanboy-sync
 on:
   schedule:
-    - cron: '31 */12 * * *'
+    - cron: '31 1 * * *'
   workflow_dispatch:
   watch:
     types: started

@@ -1,7 +1,7 @@
 name: Peng-YM-sync
 on:
   schedule:
-    - cron: '8 */12 * * *'
+    - cron: '8 1 * * *'
   workflow_dispatch:
   watch:
     types: started

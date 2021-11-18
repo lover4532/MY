@@ -1,7 +1,7 @@
 name: JDHelloWorld-jd_scripts-sync
 on:
   schedule:
-    - cron: '4 */12 * * *'
+    - cron: '4 1 * * *'
   workflow_dispatch:
   watch:
     types: started

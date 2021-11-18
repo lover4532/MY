@@ -1,7 +1,7 @@
 name: Oreomeow-checkinpanel-sync
 on:
   schedule:
-    - cron: '7 */12 * * *'
+    - cron: '7 1 * * *'
   workflow_dispatch:
   watch:
     types: started

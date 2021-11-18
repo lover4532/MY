@@ -1,7 +1,7 @@
 name: ztxtop-sync
 on:
   schedule:
-    - cron: '36 */12 * * *'
+    - cron: '36 1 * * *'
   workflow_dispatch:
   watch:
     types: started

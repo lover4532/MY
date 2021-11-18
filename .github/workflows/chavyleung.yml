@@ -1,7 +1,7 @@
 name: chavyleung-sync
 on:
   schedule:
-    - cron: '11 */12 * * *'
+    - cron: '11 1 * * *'
   workflow_dispatch:
   watch:
     types: started

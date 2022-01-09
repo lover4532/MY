@@ -1,6 +1,6 @@
 /*
 会场红包
-cron 0 0,23,12 * * * https://raw.githubusercontent.com/star261/jd/main/scripts/jd_nhs_red.js
+cron 0 0,20,23,12 * * * https://raw.githubusercontent.com/star261/jd/main/scripts/jd_nhs_red.js
 * */
 const $ = new Env('会场红包');
 const jdCookieNode = $.isNode() ? require('./jdCookie.js') : '';
